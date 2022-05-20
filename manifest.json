@@ -9,7 +9,7 @@
         "default_popup": "/popup.html",
         "default_title": "a popup window"
     },
-    "content_scripts": [
+    "content_scripts": [    
         {
             "matches": ["https://*/*"],
             "js": ["content.js"]
